@@ -1,0 +1,112 @@
+# Data Dictionary for Breast Cancer dataset. There are 32 columns, 569 rows of data. 30 columns are features. 10 features broken into 3 groups: mean, standard error, and "worst" or largest (mean of the three largest values. 
+There are 357 benign and 212 malignant diagnoses.  
+
+# Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image. 
+
+id - numeric
+Help us describe this column...
+
+diagnosis - string
+Help us describe this column...
+
+radius_mean - numeric
+mean of distances from center to points on the perimeter
+
+texture_mean - numeric
+mean of gray-scale values
+
+perimeter_mean - numeric
+Help us describe this column...
+
+area_mean - numeric
+Help us describe this column...
+
+smoothness_mean - numeric
+local variation in radius lengths
+
+compactness_mean - numeric
+perimeter^2 / area - 1.0
+
+concavity_mean - numeric
+severity of concave portions of the contour
+
+concave points_mean - numeric
+number of concave portions of the contour
+
+symmetry_mean - numeric
+Help us describe this column...
+
+fractal_dimension_mean - numeric
+"coastline approximation" - 1
+
+radius_se - numeric
+Help us describe this column...
+
+texture_se - numeric
+Help us describe this column...
+
+perimeter_se - numeric
+Help us describe this column...
+
+area_se - numeric
+Help us describe this column...
+
+smoothness_se - numeric
+Help us describe this column...
+
+compactness_se - numeric
+Help us describe this column...
+
+concavity_se - numeric
+Help us describe this column...
+
+concave points_se - numeric
+Help us describe this column...
+
+symmetry_se - numeric
+Help us describe this column...
+
+fractal_dimension_se - numeric
+Help us describe this column...
+
+radius_worst - numeric
+Help us describe this column...
+
+texture_worst - numeric
+Help us describe this column...
+
+perimeter_worst - numeric
+Help us describe this column...
+
+area_worst - numeric
+Help us describe this column...
+
+smoothness_worst - numeric
+Help us describe this column...
+
+compactness_worst - numeric
+Help us describe this column...
+
+concavity_worst - numeric
+Help us describe this column...
+
+concave points_worst - numeric
+Help us describe this column...
+
+symmetry_worst - numeric
+Help us describe this column...
+
+fractal_dimension_worst - numeric
+Help us describe this column...
+
+Versions
+Version 2
+a year ago
+
+This updated dataset has column names added
+Version 1
+a year ago
+
+Initial release
+© 2017 Kaggle Inc
+Our Team Terms Privacy Contact/Support
